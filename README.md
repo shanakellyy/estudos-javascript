@@ -1,22 +1,22 @@
 # Estudos de JavaScript 🤓
 
-Bem-vindo, esses são meus estudos de JavaScript! Aqui, estou documentando minha jornada de aprendizado com projetinhos, resoluções e anotações importantes.
+Bem-vindo ao meu repositório de estudos em JavaScript! Aqui estão alguns dos exercícios que desenvolvi para praticar.
 
+Você pode acessar cada um dos projetos diretamente pelo GitHub Pages. Basta clicar em um dos links abaixo:
 
-## 📌 Sobre
+## 📌 Projetos
 
-Este repositório contém exercícios práticos de JavaScript que estou resolvendo para aprimorar minha lógica de programação e domínio da linguagem.
+- [Relógio](projetos/relogio/index.html)
+- [Contador](projetos/contador/index.html)
+- [Tabuada](projetos/tabuada/index.html)
 
-## 🛠 Tecnologias Utilizadas
+📢 **Acesse o site pelo link:**  
+[https://shanakellyy.github.io/estudos-javascript/](https://shanakellyy.github.io/estudos-javascript/)
 
-- JavaScript (ES6+)
-- Node.js (para testar alguns códigos no ambiente local)
+🔹 **Tecnologias utilizadas:**
 
-## ✨ Objetivo
+- HTML5
+- CSS3
+- JavaScript
 
-- Praticar conceitos fundamentais de JavaScript.
-- Desenvolver habilidades de resolução de problemas.
-- Criar um repositório de referência para futuras consultas.
-
-
-## 📝 Última atualização: 25/02/2025
+💡 Este repositório será atualizado conforme eu for avançando nos estudos!
