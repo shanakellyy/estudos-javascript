@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nacionalidade</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Qual sua nacionalidade?</h1>
+    <label for="txtnac">Em qual país você nasceu?</label>
+    <input type="text" name="txtnac" id="txtnac" />
+
+    <input type="button" value="Verificar" onclick="verificar()" />
+
+    <div id="res"></div>
+
+    <script>
+      function verificar() {
+        var txtnsc = document.getElementById("txtnac");
+        var res = document.getElementById("res");
+
+        var nac = txtnsc.value;
+
+        if (nac == "Brasil" || nac == "brasil") {
+          res.innerHTML = `<p>Você é brasileiro.</p>`;
+        } else {
+          res.innerHTML = `<p>Você é estrangeiro.</p>`;
+        }
+      }
+    </script>
+  </body>
+</html>

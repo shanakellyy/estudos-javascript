@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Primeiros passos com DOM</title>
+  <style>
+    body {
+      background: rgb(68, 125, 199);
+      color: white;
+      font: normal 12pt Arial;
+    }
+  </style>
+</head>
+<body>
+  <h1>Iniciando estudos DOM</h1>
+  <p>Aqui vai o resultado</p>
+  <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript.</p>
+  <div id="msg">Clique em mim</div>
+  <br>
+  <script>
+    var p1 = document.getElementsByTagName('p')[1];
+    /*
+    selecionando o elemento pela tag. ('p') seleciona o parágrafo, [0] seleciona o primeiro parágrafo. (1) selecionaria o segundo parágrafo e assim por diante.
+    */
+
+    window.document.write(p1.innerHTML);
+    /*
+    escrevendo o conteúdo do parágrafo selecionado.
+    innerText copia apenas o texto, innerHTML copia o texto com tags semânticas
+    */
+
+    p1.style.color = 'red';
+    /*
+    mudando a cor do texto do parágrafo selecionado.
+    */
+
+    var msg = document.querySelector('div#msg');
+    /*
+    selecionando o elemento pela tag e id. ('div#msg') seleciona a div com id 'msg'.
+    se fosse uma classe, seria ('div.msg').
+    */
+
+    msg.style.background = 'purple';
+
+  </script>
+</body>
+</html>
