@@ -5,6 +5,7 @@ function carregar() {
   var data = new Date();
   var hora = data.getHours();
   var minuto = data.getMinutes().toString().padStart(2, "0");
+  // mostra duas casas nos minutos, adicionando 0 quando necessário
 
   msg.innerHTML = `Agora são <strong>${hora}:${minuto}</strong>`;
 

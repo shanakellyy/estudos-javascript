@@ -1,5 +1,6 @@
 var h = new Date().getHours();
 var m = new Date().getMinutes();
+// pega informações de hora e minuto do sistema, em tempo real
 
 console.log(`Agora são exatamente ${h}:${m} horas.`);
 

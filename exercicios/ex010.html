@@ -27,6 +27,7 @@
 
         var nac = txtnsc.value;
 
+        // || significa ou, então, nesse caso, a pessoa poderia digitar de qualquer uma dessas formas que o computador iria entender
         if (nac == "Brasil" || nac == "brasil") {
           res.innerHTML = `<p>Você é brasileiro.</p>`;
         } else {
